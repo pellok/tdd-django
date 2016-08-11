@@ -10,8 +10,9 @@ class NewVisitorTest(unittest.TestCase):
 
     def test_starting_a_new_tod_list(self):
 
-        browser.get('http://localhost:8000')
-        self.assertIn('To-do' ,browser.title) 
+        self.browser.get('http://localhost:8000')
+        self.assertIn('To-do' ,self.browser.title) 
+        self.fail('Finish the test')
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(warnings='ignore')

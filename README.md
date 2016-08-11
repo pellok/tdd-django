@@ -1,4 +1,9 @@
 tdd-django
+安裝
+pip install selenium
+pip install django
+pip install unittest
+
 練習 測試驅動開發使用Python
 
 #寫第一個Function Test
